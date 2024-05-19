@@ -540,7 +540,7 @@ int main(){
 
     printf("The encrypted text is: ");
     for (int i = 0; i < filesize; ++i){
-        printf("%c", cipher[i]);
+        printf("%02x", cipher[i]);
     }
     printf("\n\n");
 
